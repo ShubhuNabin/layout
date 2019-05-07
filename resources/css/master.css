@@ -1,13 +1,13 @@
 /*html{
 	background: #709cb173;
-	
+
 }*/
 
-.logo{
-	/*margin-left: 10px;*/
-	/*padding:5px;*/
-	
-	/*letter-spacing: 2px;*/
+.logo a{
+	margin-left: 10px;
+	padding: 5px;
+	letter-spacing: 2px;
+	color: #d29817b8;
 	
 }
 
@@ -17,8 +17,15 @@ nav ul li{
 	padding:5px;
 	list-style: none;
 	letter-spacing: 2px;
+	
+}
+nav ul li a{
+	color: #d29817b8;
 }
 ul li a:hover{
-	background: black;
-	color: white;
+	width: -webkit-fill-available;
+	height: -webkit-fill-available;
+	color: #523a04b8;
+	background: #eaeaea;
+	
 }

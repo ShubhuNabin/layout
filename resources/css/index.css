@@ -19,3 +19,10 @@
     border-radius: 9px;
     color: #d47f7f;
 }
+.jumb_css:hover{
+	background-color: #ffffff;
+	width: 70%;
+	margin: 0 auto;
+	border-radius: 9px;
+	color: #383030;
+}

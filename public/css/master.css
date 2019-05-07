@@ -7,14 +7,14 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 /*html{
 	background: #709cb173;
-	
+
 }*/
 
-.logo{
-	/*margin-left: 10px;*/
-	/*padding:5px;*/
-	
-	/*letter-spacing: 2px;*/
+.logo a{
+	margin-left: 10px;
+	padding: 5px;
+	letter-spacing: 2px;
+	color: #d29817b8;
 	
 }
 
@@ -24,10 +24,17 @@ nav ul li{
 	padding:5px;
 	list-style: none;
 	letter-spacing: 2px;
+	
+}
+nav ul li a{
+	color: #d29817b8;
 }
 ul li a:hover{
-	background: black;
-	color: white;
+	width: -webkit-fill-available;
+	height: -webkit-fill-available;
+	color: #523a04b8;
+	background: #eaeaea;
+	
 }
 .contact_bg{
 	background-image: url('../image/contact.jpg');
@@ -66,6 +73,10 @@ ul li a:hover{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	padding: 10px;
+}
+.card{
+	background: 
 }
 .index_bg{
 	background-image: url('../image/index.jpg');
@@ -87,4 +98,11 @@ ul li a:hover{
     margin: 0 auto;
     border-radius: 9px;
     color: #d47f7f;
+}
+.jumb_css:hover{
+	background-color: #ffffff;
+	width: 70%;
+	margin: 0 auto;
+	border-radius: 9px;
+	color: #383030;
 }

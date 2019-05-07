@@ -3,9 +3,15 @@
 @section('main-container')
 	
 	<div class="about_bg ">
-		<h2>About</h2>
-		
-		<h5>About Us</h5>
+		<div class="card" style="width: 18rem;">
+		  <img class="card-img-top" src="..." alt="Card image cap">
+		  <div class="card-body">
+		  	<h5>Bio</h5>
+		    <p class="card-text">Random info</p>
+		    <p class="card-text">Random info</p>
+		    <p class="card-text">Random info</p>
+		  </div>
+		</div>
 	</div>
 @endsection
 
