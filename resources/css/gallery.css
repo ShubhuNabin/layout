@@ -1,0 +1,7 @@
+.gallery_bg{
+	background-image: url('../image/gallery.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

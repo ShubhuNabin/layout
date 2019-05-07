@@ -1,0 +1,21 @@
+.index_bg{
+	background-image: url('../image/index.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*padding-top: 235px;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-attachment: fixed;
+
+
+}
+.jumb_css{
+	background-color: #1b1d1c9c;
+	width: 60%;
+    margin: 0 auto;
+    border-radius: 9px;
+    color: #d47f7f;
+}

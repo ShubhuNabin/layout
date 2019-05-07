@@ -1,0 +1,24 @@
+/*html{
+	background: #709cb173;
+	
+}*/
+
+.logo{
+	/*margin-left: 10px;*/
+	/*padding:5px;*/
+	
+	/*letter-spacing: 2px;*/
+	
+}
+
+nav ul li{
+	display:inline-block;
+	margin-left: 25px;
+	padding:5px;
+	list-style: none;
+	letter-spacing: 2px;
+}
+ul li a:hover{
+	background: black;
+	color: white;
+}

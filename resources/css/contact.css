@@ -1,0 +1,12 @@
+.contact_bg{
+	background-image: url('../image/contact.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*padding-top: 235px;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-attachment: fixed;
+}
