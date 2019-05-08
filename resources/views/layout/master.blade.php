@@ -19,11 +19,12 @@
 			</div>
 			<div class="col-md-7">
 				<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="/services">Services</a></li>
-					<li><a href="/gallery">Gallery</a></li>
-					<li><a href="/contact">Contact</a></li>
-					<li><a href="/about">About</a></li>
+					<li class = "load_page" data-url="/home"><a href="#">Home</a></li>
+					<li class = "load_page" data-url="/services"><a href="#" >Services</a></li>
+					<li class = "load_page" data-url="/gallery"><a href="#" >Gallery</a></li>
+					<li class = "load_page" data-url="/blog"><a href="#" >Blog</a></li>
+					<li class = "load_page" data-url="/contact"><a href="#" >Contact</a></li>
+					<li class = "load_page" data-url="/about"><a href="#" >About</a></li>
 					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -40,7 +41,9 @@
 	<div>
 		<div class="wrapper">
 
-			@yield('main-container')
+			<div id="main_content">
+				@include('home.index')
+			</div>
 		</div>
 
 	</div>
@@ -50,10 +53,10 @@
 
 	<!-- Common footer -->
 	
-	<footer class="page-footer font-small blue">
+	<footer class="page-footer font-small blue bg-dark">
 
 	  <!-- Copyright -->
-	  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+	  <div class="footer-copyright text-center py-3 text-light">© 2019 Copyright:
 	    
 	  </div>
 	  <!-- Copyright -->
@@ -61,6 +64,6 @@
 	</footer>
 	
 	<!-- End of footer -->
-
+	<script src="{{asset('js/master.js')}}"></script>
 </body>
 </html>

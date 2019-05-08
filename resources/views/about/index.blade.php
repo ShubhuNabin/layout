@@ -1,6 +1,4 @@
-@extends('layout.master')
 
-@section('main-container')
 	
 	<div class="about_bg ">
 		<div class="card" style="width: 18rem;">
@@ -12,6 +10,11 @@
 		    <p class="card-text">Random info</p>
 		  </div>
 		</div>
+
+
+		
 	</div>
-@endsection
+	
+
+
 

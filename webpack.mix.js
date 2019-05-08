@@ -24,6 +24,7 @@ mix.styles([
 	'resources/css/services.css',
 	'resources/css/about.css',
 	'resources/css/index.css',
+	'resources/css/blog.css',
 	],'public/css/master.css');
 
 mix.scripts([

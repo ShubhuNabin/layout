@@ -1,6 +1,4 @@
-@extends('layout.master')
 
-@section('main-container')
 	
 	<div class="contact_bg">
 		<div class="jumbotron jumbotron-fluid jumb_css">
@@ -16,4 +14,3 @@
 		
 	</div>
 
-@endsection

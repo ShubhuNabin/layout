@@ -10,3 +10,12 @@
 	justify-content: center;
 	background-attachment: fixed;
 }
+.pngs ul li img{
+	transition-property: inherit;
+	transition-duration: 0.5s;
+}
+.pngs ul li img:hover{
+	height: 110px;
+	width: 110px;
+
+}
