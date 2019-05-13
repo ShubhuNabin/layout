@@ -16,10 +16,10 @@ window.onload = function() {
 		// console.log("ok");
 		let url = $(this).attr('data-url');
 
-		sendAjax(url);
+		sendAjax(url,'#main_content');
 	});
 
-	function sendAjax(url) {
+	function sendAjax(url, location) {
 
 		$.ajax({
 
@@ -28,8 +28,8 @@ window.onload = function() {
 			// data : '',
 			success : function(resp) {
 
-				// $('#main_content').empty();
-				$('#main_content').html(resp);
+				$(location).empty();
+				$(location).html(resp);
 			},
 			error : function(err){
 				console.log(err);
@@ -39,3 +39,32 @@ window.onload = function() {
 
 
 }
+
+
+
+	$('.load_admin').on('click', function(e) {
+
+		e.preventDefault();
+
+		let url = $(this).attr('data-url');
+		sendAjax(url,'#admin_content');
+
+	});
+
+	function sendAjax(url, location) {
+
+		$.ajax({
+
+			url : url,
+			method : 'GET',
+			// data : '',
+			success : function(resp) {
+
+				$(location).empty();
+				$(location).html(resp);
+			},
+			error : function(err){
+				console.log(err);
+			}
+		});
+	}

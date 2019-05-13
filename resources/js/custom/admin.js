@@ -1,12 +1,13 @@
-window.onload = function() {
 
-	console.log("window is ready");
-	$('.load_page').on('click', function(e) {
+
+
+	$('.load_admin').on('click', function(e) {
+
 		e.preventDefault();
-		// console.log("ok");
-		let url = $(this).attr('data-url');
 
-		sendAjax(url,'#main_content');
+		let url = $(this).attr('data-url');
+		sendAjax(url,'#admin_content');
+
 	});
 
 	function sendAjax(url, location) {
@@ -26,6 +27,3 @@ window.onload = function() {
 			}
 		});
 	}
-
-
-}

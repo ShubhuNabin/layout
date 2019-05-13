@@ -25,6 +25,7 @@ mix.styles([
 	'resources/css/about.css',
 	'resources/css/index.css',
 	'resources/css/blog.css',
+	'resources/css/admin.css',
 	],'public/css/master.css');
 
 mix.scripts([
@@ -32,4 +33,5 @@ mix.scripts([
 	'resources/js/jquery.js',
 	'resources/bootstrap/js/bootstrap.min.js',
 	'resources/js/custom/main.js',
+	'resources/js/custom/admin.js',
 	],'public/js/master.js');

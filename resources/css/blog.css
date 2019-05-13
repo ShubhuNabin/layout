@@ -1,3 +1,6 @@
+.blog_back{
+	background: #5d393978;
+}
 .blog_all{
 	color: white;
 }
@@ -59,4 +62,10 @@ input[type="submit"]{
 	/*justify-content: center;*/
 	
 	letter-spacing: 2px;
+}
+.dash_left{
+	
+}
+.dash_right{
+
 }
